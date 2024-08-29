@@ -1,0 +1,11 @@
+[project]
+name = "{{cookiecutter.project_name}}"
+version = "{{cookiecutter.version}}"
+license = "{{cookiecutter.license}}"
+dependencies = [
+    "flet>=0.21.0",
+    "flet-easy>=0.2.0"
+    ]
+
+[[project.authors]]
+name = "{{cookiecutter.author_name}}"
